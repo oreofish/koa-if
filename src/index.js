@@ -1,5 +1,5 @@
-import isFunction from 'lodash/lang/isFunction'
-import isBoolean from 'lodash/lang/isBoolean'
+import isFunction from 'lodash.isFunction'
+import isBoolean from 'lodash.isboolean'
 
 export default function(middleware, condition=true) {
   return async (ctx, next) => {
