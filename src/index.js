@@ -1,4 +1,4 @@
-import isFunction from 'lodash.isFunction'
+import isFunction from 'lodash.isfunction'
 import isBoolean from 'lodash.isboolean'
 
 export default function(middleware, condition=true) {
